@@ -1,14 +1,25 @@
-import Message from "./message"
-import { Button } from "react-bootstrap"
+import Message from "./message";
+import { Button } from "react-bootstrap";
+
 const App = () => {
   return (
-    <div>
-      <Message />
-      <Button variant="dark">Dark</Button>
+    <div
+      className="d-flex flex-column justify-content-center align-items-center vh-100 text-center bg-light"
+      style={{ gap: "20px" }} // space between title, message, and button
+    >
 
+      <h1 className="display-4">Welcome to My App</h1>
+
+
+      <Message />
+
+
+      <Button variant="dark" size="lg">
+        Click Me
+      </Button>
     </div>
-  )
-}
+  );
+};
 
 export default App;
 
