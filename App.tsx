@@ -1,4 +1,4 @@
-import Message from "./message";
+
 import { Button } from "react-bootstrap";
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
       <h1 className="display-4">Welcome to My App</h1>
 
 
-      <Message />
+
 
 
       <Button variant="dark" size="lg">
